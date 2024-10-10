@@ -1,0 +1,25 @@
+
+.parent
+{
+    height: 600px;
+    width: 400px;
+    background-color: beige;
+}
+
+.container {
+    width: 300px;  /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    overflow-y: auto; /* Enable scrolling */
+    border: 1px solid #ccc; /* Optional: for visual effect */
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding/border are included in size */
+    /* background-color: aquamarine; */
+  }
+  
+  /* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+ 
+ 
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  

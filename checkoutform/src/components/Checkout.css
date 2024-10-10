@@ -1,0 +1,217 @@
+
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+h1
+{
+   text-align: center;
+   height: 20px;
+   padding: 20px;
+}
+.container
+{
+    width: 100vw;
+    height: calc(100vh - 70px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-details
+{
+    width: 45%;
+    height: 90%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+.product
+{
+    height: 51%;
+    width: 45%;
+    position: absolute;
+    overflow-y: auto;
+    /* background-color: aquamarine; */
+}
+.product::-webkit-scrollbar {
+  display: none;
+}
+
+.details
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.items
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:10px ;
+    overflow: hidden;
+}
+.items img
+{
+    height: 100px;
+    width: 80px;
+    overflow: hidden;
+    margin: 20px 0px  0px 20px;
+
+}
+
+
+.name
+{   
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.price
+{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.line
+{
+    width: 100%;
+    /* margin-bottom: 3px; */
+    height: 0.4%;
+    background-color: rgb(207, 210, 212);
+    position: absolute;
+    top: 65%;
+    width: 44%;
+}
+ /* cashout  */
+.cashout
+{
+    height: 34.6%;
+    width: 45%;
+    position: absolute;
+    top: 65.4%;
+}
+.coupon input
+{
+    width: 70%;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+button
+{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.checkout-price {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .checkout-price div {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .checkout-price span {
+    font-size: 16px; 
+    margin: 5px;
+  }
+  
+  .checkout-price div span:first-child {
+    font-weight: bold; 
+  }
+  
+
+.form-detail
+{
+    width: 45%;
+    height: 90%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.form-detail h4
+{
+    margin: 40px;
+    font-size: 20px;
+}
+
+.form input
+{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+.form input:focus {
+    border-color: rgb(146, 143, 143); 
+    outline: none; 
+  }
+
+
+.form label 
+{
+    margin-left: 20px;
+}
+
+.location {
+    display: flex;
+    gap: 20px; 
+  }
+  
+.field {
+    width: 45%;
+    display: flex;
+    width: 47%;
+    flex-direction: column; 
+  }
+  
+.field input {
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    font-size: 16px; 
+  }
+  
+  .field input:focus {
+    border-color: rgb(158, 156, 156); 
+    outline: none; 
+  }
+
+
+  .continue-btn
+  {
+    width: 90%;
+    margin: 30px;
+   font-size: 20px;
+   background-color: rgb(186, 222, 222);
+  }
+
+  .count-button
+  {
+    background-color: rgb(191, 114, 14);
+    display: flex;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #333;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+  }
